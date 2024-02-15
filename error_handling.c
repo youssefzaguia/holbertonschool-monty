@@ -6,10 +6,10 @@
  */
 bool check_arguments(int ac)
 {
-    if (ac != 2)
-    {
-        fprintf(stderr, "USAGE: monty file\n");
-        return (false);
-    }
-    return (true);
+	if (ac != 2)
+	{
+		fprintf(stderr, "USAGE: monty file\n");
+		return (false);
+	}
+	return (true);
 }
